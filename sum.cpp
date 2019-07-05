@@ -1,12 +1,9 @@
-#include <stdio.h>
+#include <stdio>
 #include "sum.h"
 
-int main(){
-	int n=10;
-	int r = 0;
-
-	for(int i =1 ;i<=n;i++)
-	r += i;
+int sum(int n){
 	
-	return r;
+
+	
+ return n*(n+1)/2;
 }
